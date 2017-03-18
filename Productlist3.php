@@ -4,7 +4,7 @@
         header('Location: signin1.php');
     }
 ?>
-<!DOCTYPE html>
+<!--DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="UTF-8" />
@@ -312,4 +312,4 @@
         </form>
 
    </body>
-</html>
+</html-->

@@ -153,19 +153,19 @@
             <div class="col-md-8">
                 <h1>The Bakery shop</h1>
                 <br/>
-                <h3>Chocolates &amp; Cookies</h3>
+                <h3>Mousse &amp; Ganache</h3>
             </div>
             <div class="col-md-4">
                 <br/>    
-                 <p> <a href="#"><img src="images/images.gif" class="auto-style27" /></a> <?php echo $items_cart; ?> items(s) in the cart. Total Price: <?php echo $items_price; ?> Rs.</p>
+                 <p> <a href="cart.php"><img src="images/images.gif" class="auto-style27" /></a> <?php echo $items_cart; ?> items(s) in the cart. Total Price: <?php echo $items_price; ?> Rs.</p>
             </div>
         </div>
                     
         <div class="row">
             <div class="col-md-4">
-                <img src="images/wcake.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="1">
-                        <input type="hidden" name="cakename" value="blueberry_vanilla"><h2>Blueberry Vannila</h2><br />
+                <img src="images/chocolatemoussecake.jpg" alt="Image" class="auto-style2" />
+                <form method = "POST" action="add_to_cart3.php" id="1">
+                        <input type="hidden" name="cookiename" value="chocolate"><h2>Chocolate Mousse</h2><br />
                     <div class="row">
                         <div class="col-md-3">
                              <b>Quantity</b>
@@ -180,7 +180,7 @@
                              </select>
                         </div>
                     </div>
-                    <input type="hidden" name="cakeprice" value="125"><b>Price</b> : 125
+                    <input type="hidden" name="cookieprice" value="65"><b>Price</b> : 65
                     <div class="row">
                         <div class="col-md-12">
                             <p></p>
@@ -196,9 +196,9 @@
 
 
             <div class="col-md-4">
-                <img src="images/sacramento-wedding-cakes.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="2">
-                        <input type="hidden" name="cakename" value="vanilla_orange_rose"><h2>Vanilla Orange Rose</h2><br />
+                <img src="images/chocolatebiscotti.jpg" alt="Image" class="auto-style2" />
+                <form method = "POST" action="add_to_cart3.php" id="2">
+                        <input type="hidden" name="cookiename" value="chocolate_biscotti"><h2>Chocolate Biscotti</h2><br />
                     <div class="row">
                         <div class="col-md-3">
                              <b>Quantity</b>
@@ -213,7 +213,7 @@
                              </select>
                         </div>
                     </div>
-                    <input type="hidden" name="cakeprice" value="145"><b>Price</b> : 145
+                    <input type="hidden" name="cookieprice" value="55"><b>Price</b> : 55
                     <div class="row">
                         <div class="col-md-12">
                             <p></p>
@@ -229,9 +229,9 @@
 
 
             <div class="col-md-4">
-                <img src="images/exotic-flower-cake.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="3">
-                        <input type="hidden" name="cakename" value="exotic_flower_cake"><h2>Exotic Flower Cake</h2><br />
+                <img src="images/cookies1.jpg" alt="Image" class="auto-style2" />
+                <form method = "POST" action="add_to_cart3.php" id="3">
+                        <input type="hidden" name="cookiename" value="assorted_butter_cookies"><h2>Assorted Butter Cookies</h2><br />
                     <div class="row">
                         <div class="col-md-3">
                              <b>Quantity</b>
@@ -246,7 +246,7 @@
                              </select>
                         </div>
                     </div>
-                    <input type="hidden" name="cakeprice" value="215"><b>Price</b> : 215
+                    <input type="hidden" name="cookieprice" value="20"><b>Price</b> : 20
                     <div class="row">
                         <div class="col-md-12">
                             <p></p>
@@ -275,9 +275,9 @@
 
         <div class="row">
             <div class="col-md-4">
-                <img src="images/stunning-pink-wedding-cake.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="4">
-                        <input type="hidden" name="cakename" value="stunning_pink_wedding_cake"><h3>Stunning Pink wedding cake</h3><br />
+                <img src="images/Buttercookie1.jpg" alt="Image" class="auto-style2" />
+                <form method = "POST" action="add_to_cart3.php" id="4">
+                        <input type="hidden" name="cookiename" value="biscotti"><h3>Biscotti</h3><br />
                     <div class="row">
                         <div class="col-md-3">
                              <b>Quantity</b>
@@ -292,7 +292,7 @@
                              </select>
                         </div>
                     </div>
-                    <input type="hidden" name="cakeprice" value="135"><b>Price</b> : 135
+                    <input type="hidden" name="cookieprice" value="15"><b>Price</b> : 15
                     <div class="row">
                         <div class="col-md-12">
                             <p></p>
@@ -308,9 +308,9 @@
 
 
             <div class="col-md-4">
-                <img src="images/wedding-celebrations-cascade-cake.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="5">
-                        <input type="hidden" name="cakename" value="triple_choco_box"><h2>Triple Chocolate Box</h2><br />
+                <img src="images/chococookie.jpg" alt="Image" class="auto-style2" />
+                <form method = "POST" action="add_to_cart3.php" id="5">
+                        <input type="hidden" name="cookiename" value="double_choco_cookie"><h2>Double Chocolate Cookie</h2><br />
                     <div class="row">
                         <div class="col-md-3">
                              <b>Quantity</b>
@@ -325,7 +325,7 @@
                              </select>
                         </div>
                     </div>
-                    <input type="hidden" name="cakeprice" value="185"><b>Price</b> : 185
+                    <input type="hidden" name="cookieprice" value="55"><b>Price</b> : 55
                     <div class="row">
                         <div class="col-md-12">
                             <p></p>
@@ -341,9 +341,9 @@
 
 
             <div class="col-md-4">
-                <img src="images/chocowc.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="6">
-                        <input type="hidden" name="cakename" value="white_choco_cake"><h2>White Chocolate Cake</h2><br />
+                <img src="images/gingerbreadcookie.jpg" alt="Image" class="auto-style2" />
+                <form method = "POST" action="add_to_cart3.php" id="6">
+                        <input type="hidden" name="cookiename" value="gingerbread_cookie"><h2>Ginger Bread Cake</h2><br />
                     <div class="row">
                         <div class="col-md-3">
                              <b>Quantity</b>
@@ -358,7 +358,7 @@
                              </select>
                         </div>
                     </div>
-                    <input type="hidden" name="cakeprice" value="215"><b>Price</b> : 225
+                    <input type="hidden" name="cookieprice" value="25"><b>Price</b> : 25
                     <div class="row">
                         <div class="col-md-12">
                             <p></p>
@@ -371,102 +371,6 @@
                     </div>
                 </form>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <p></p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <p></p>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-2">
-                <p></p>
-            </div>
-
-            <div class="col-md-4">
-                <img src="images/whit0chocoe.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="7">
-                        <input type="hidden" name="cakename" value="strawberry_flowers_cake"><h3>Strawberry Flowers Cake</h3><br />
-                    <div class="row">
-                        <div class="col-md-3">
-                             <b>Quantity</b>
-                        </div>
-                        <div class="col-md-9">
-                             <select name="quantity">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                             </select>
-                        </div>
-                    </div>
-                    <input type="hidden" name="cakeprice" value="135"><b>Price</b> : 135
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <input type="submit" value="Add to Cart" name="sbmt-btn">
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-
-            <div class="col-md-1">
-                <p></p>
-            </div>
-
-            <div class="col-md-4">
-                <img src="images/weddingcake31.gif" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="8">
-                        <input type="hidden" name="cakename" value="dark_choco_box"><h2>Dark Chocolate Cake</h2><br />
-                    <div class="row">
-                        <div class="col-md-3">
-                             <b>Quantity</b>
-                        </div>
-                        <div class="col-md-9">
-                             <select name="quantity">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                             </select>
-                        </div>
-                    </div>
-                    <input type="hidden" name="cakeprice" value="195"><b>Price</b> : 195
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <input type="submit" value="Add to Cart" name="sbmt-btn">
-                        </div>
-                    </div>
-                </form>
-            </div> 
-
-
-
-            <div class="col-md-1">
-                <p></p>
-            </div>
-
-
         </div>
     </div>
                 
@@ -529,45 +433,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="UTF-8" />
@@ -595,7 +461,7 @@
         }
         .auto-style5 {
             width: 216px;
-            height: 204px;
+            height: 174px;
         }
         .auto-style6 {
             left: 30px;
@@ -614,9 +480,8 @@
             height: 217px;
         }
         .auto-style12 {
-            left: 30px;
-            top: 20px;
-            height: 73px;
+            left: -523px;
+            top: -730px;
         }
         .auto-style13 {
             width: 230px;
@@ -634,65 +499,58 @@
             width: 902px;
         }
         .auto-style19 {
-            height: 250px;
-            width: 453px;
+            height: 282px;
         }
         .auto-style20 {
             left: 30px;
             top: 20px;
-            height: 197px;
-            width: 198px;
+            height: 186px;
         }
         .auto-style21 {
-            width: 182px;
-            height: 226px;
+            width: 178px;
+            height: 176px;
         }
         .auto-style22 {
-            width: 200px;
+            width: 204px;
+            height: 197px;
         }
         .auto-style24 {
-            left: 2px;
-            top: 0px;
+            height: 109px;
+            width: 325px;
         }
         .auto-style25 {
-            left: 2px;
-            top: 0px;
-            height: 214px;
+            height: 85px;
+            width: 117px;
         }
         .auto-style26 {
-            left: 30px;
-            top: 20px;
-            height: 182px;
-            width: 203px;
-        }
-        .auto-style27 {
-            width: 41px;
-            height: 37px;
+            width: 36px;
+            height: 29px;
         }
     </style>
 </head>
-<body>
+<body style="width: 118%">
 	
 	<div id="header">
 		<div>
 			<div>
 				<div id="logo">
-					<img src="images/logo.gif" alt="Logo"/>
-				</div>
+					&nbsp;<img src="images/logo.gif" alt="Logo" class="auto-style24"/></div>
 				<div>
 					<div>
 						<a href="cart.php" >Hello, <?php //echo $_COOKIE["username_bake"]; ?></a>
                         <a href="logout.php"> Logout </a>
                         <a href="sample.php" class="last">Help</a>
-					</div>
+					
+                    </div>
                     <form action="#">
-						<input type="text" id="search" maxlength="30" />
+						<input type="text" id="search" maxlength="30" class="auto-style25" />
 						<input type="submit" value="" id="searchbtn" />
-                    </form>
-					</div>
+                </form>
+	        
+                </div>
 			</div>
 			<ul>
-				<li><a href="index.aspx">Home</a></li>
+				<li ><a href="index.aspx">Home</a></li>
 				<li class="current"><a href="product.aspx">The Bakery shop</a></li>
 				<li><a href="about.aspx">About us</a></li>
 				<li><a href="services.aspx">Services</a></li>
@@ -704,180 +562,141 @@
 			</div>
 		</div>
 	</div>
-    <form id="form1" runat="server">
-	<div id="content">
+    <form runat="server">
+        	<div id="content">
 		<div class="auto-style18">
-			<h1>The Bakery shop</h1>
-            <br/>
-            <h3>Chocolates and Cookies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h3>
-			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src="images/images.gif" class="auto-style27" /><asp:Label ID="Label1" runat="server"></asp:Label> </p>
-            <ul>
+			<h1>The Bakery shop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+              <br/>
+            <h3>Pastries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h3>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/images.gif" class="auto-style26" /><asp:Label ID="Label1" runat="server"></asp:Label></p>
+			<ul>
 				<li>
 					<div>
-						<div class="aside" style="left: 30px; top: 20px; height: 172px">
-							<h2>Chocolate </h2><br />
-							<p>&nbsp;&nbsp; Quantity&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" Height="16px" Width="58px">
+						<div>
+							<h2>1. Chocolate Mousse</h2>
+							<br /><p>Quantity :&nbsp;
+                                <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="67px">
                                     <asp:ListItem>1</asp:ListItem>
                                     <asp:ListItem>2</asp:ListItem>
                                     <asp:ListItem>3</asp:ListItem>
                                     <asp:ListItem>4</asp:ListItem>
                                     <asp:ListItem>5</asp:ListItem>
-                                    <asp:ListItem></asp:ListItem>
                                 </asp:DropDownList>
-                            <br />
-                                    
                             </p>
-                            &nbsp;&nbsp; Price is 25
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                            <br />
-                            <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <asp:Button ID="Button1" runat="server" Text="Add to cart" />
-&nbsp;</div>
+                            &nbsp;Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :65
+                            <br /><br /><p>
+                                <asp:Button ID="Button1" runat="server" Text="Add to cart " /></p>
+						</div>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="images/choco1.jpg" alt="Image" class="auto-style2" /></div>
+						<a href="cart.aspx"><img src="images/chocolatemoussecake.jpg" alt="Image" class="auto-style2" /></a></div>
 				</li>
 				<li>
-					<div class="auto-style25">
-						<div class="auto-style26">
-							<h2>Chocolate Biscotti</h2><br />
-							<p>Quantity&nbsp;&nbsp; &nbsp;
-                                <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True" Height="16px" Width="72px">
+					<div>
+						<div>
+							<h2>2. Lemon Cheese Mousse</h2>
+                            <br /><p>Quantity:
+                                <asp:DropDownList ID="DropDownList2" runat="server" Height="16px" Width="52px">
                                     <asp:ListItem>1</asp:ListItem>
                                     <asp:ListItem>2</asp:ListItem>
                                     <asp:ListItem>3</asp:ListItem>
                                     <asp:ListItem>4</asp:ListItem>
                                     <asp:ListItem>5</asp:ListItem>
-                                    <asp:ListItem></asp:ListItem>
                                 </asp:DropDownList>
                             </p>
-                            <p>Price : 55</p>
-                            <asp:Button ID="Button2" runat="server" Text="Add to cart" />
- 
-                            <br />
-                            <p>
-                                &nbsp;</p>
-                            &nbsp;</div>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-                        <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <img src="images/chocolatebiscotti.jpg" alt="Image" class="auto-style22" />
+							Price :100
+							<br /><br /> <p><asp:Button ID="Button2" runat="server" Text="Add to cart" /></p>
+                            
+                            
+                        </div>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="cart.aspx"><img src="images/lemon.jpg" alt="Image" class="auto-style22" /></a>
 					</div>
 				</li>
 				<li>
 					<div class="auto-style8">
 						<div class="auto-style6">
-							<h2>Assorted Butter Cookie</h2><br />
-							<p >Quantity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:DropDownList ID="DropDownList3" runat="server" AutoPostBack="True" Height="16px" Width="58px">
+							<h2>3. Noissette</h2>
+						<br />	<p >Quantity:
+                                <asp:DropDownList ID="DropDownList3" runat="server" Height="16px" Width="52px">
                                     <asp:ListItem>1</asp:ListItem>
                                     <asp:ListItem>2</asp:ListItem>
                                     <asp:ListItem>3</asp:ListItem>
                                     <asp:ListItem>4</asp:ListItem>
                                     <asp:ListItem>5</asp:ListItem>
-                                    <asp:ListItem></asp:ListItem>
-                                </asp:DropDownList>
-                            &nbsp;</p>
-                            <br /><br />
-                            Price : 20<br />
+                                </asp:DropDownList></p>
+                            Price : 35
                             <br />
                             <br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                            <asp:Button ID="Button3" runat="server" Height="22px" Text="Add to cart" Width="89px" />
-                            <br />
-                            <br />
-                            <p>	&nbsp;</p>
-                            <p>&nbsp;</p>
+                            
+                              <asp:Button ID="Button3" runat="server" Text="Add to cart" />
 							&nbsp;</div>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-						<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/cookies1.jpg" alt="Image" class="auto-style3"  />
+						<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="cart.aspx"> <img src="images/Noisettep.jpg" alt="Image" class="auto-style3"  /></a>
 					</div>
 				</li>
 				<li>
-					<div class="auto-style24">
+					<div>
 						<div class="auto-style12">
-							<h2>Biscotti</h2>
+							<h2>4. Chocolate Eclairs</h2>
                            
                             <br />
-                            <p>Quantity&nbsp;&nbsp;&nbsp;
-                                <asp:DropDownList ID="DropDownList4" runat="server" AutoPostBack="True" Height="16px" Width="72px">
+                            <p>Quantity:
+                                <asp:DropDownList ID="DropDownList4" runat="server" Height="16px" Width="52px">
                                     <asp:ListItem>1</asp:ListItem>
                                     <asp:ListItem>2</asp:ListItem>
                                     <asp:ListItem>3</asp:ListItem>
                                     <asp:ListItem>4</asp:ListItem>
                                     <asp:ListItem>5</asp:ListItem>
-                                    <asp:ListItem></asp:ListItem>
-                                </asp:DropDownList>
-                                </p>
-                            <p>Price is 15</p>
-                            <br />
-                            <br />
-                                                        <br />
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:Button ID="Button4" runat="server" Text="Add to cart" />
-                                <br />
-                                </p>
-                            &nbsp;<br />
-                            <br />
-                            <br />
-                            <br />
+                                </asp:DropDownList>  </p>
+                            Price: 65<br /><br />
+                            
+                          <asp:Button ID="Button4" runat="server" Text="Add to cart" />
+                            
                            
 							&nbsp;</div>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/Buttercookie1.jpg" alt="Image" class="auto-style13" />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="cart.aspx"><img src="images/Chocolate%20Eclairs.jpg" alt="Image" class="auto-style13" /></a>
 					</div>
 				</li>
 				<li>
 					<div class="auto-style7">
 						&nbsp;<div class="auto-style20">
-							<h2>Double Chocolate cookie</h2><br />
-							<p >Quantity
-                                 <asp:DropDownList ID="DropDownList5" runat="server" AutoPostBack="True" Height="16px" Width="72px">
+							<h2>5. Creme Caramel</h2>
+							<p > Quantity :&nbsp;
+                                <asp:DropDownList ID="DropDownList5" runat="server" Height="16px" Width="52px">
                                     <asp:ListItem>1</asp:ListItem>
                                     <asp:ListItem>2</asp:ListItem>
                                     <asp:ListItem>3</asp:ListItem>
                                     <asp:ListItem>4</asp:ListItem>
                                     <asp:ListItem>5</asp:ListItem>
-                                    <asp:ListItem></asp:ListItem>
-                                </asp:DropDownList>
-                                <br />
-							</p>
-                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Price : 20<br />
-                            <br />
-&nbsp;&nbsp;&nbsp;
-                            <asp:Button ID="Button5" runat="server" Text="Add to cart" />
-                            <br />
+                                </asp:DropDownList></p>
+                            Price : 75<br />
+                            <p>
+                                <asp:Button ID="Button5" runat="server" Text="Add to cart" />
+                            </p>
                             </div>
-                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/chococookie.jpg" alt="Image" class="auto-style21" />
-					</div>
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="cart.aspx"> <img src="images/ Creame%20Caramel .jpg" alt="Image" class="auto-style21" /></a>
+                            </div>
 				&nbsp;&nbsp;
 				</li>
 				<li class="auto-style19">
 					<div>
 						<div class="auto-style4">
-							<h2>Ginger bread cookie</h2><br />
-                            <p>Quantity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                 <asp:DropDownList ID="DropDownList6" runat="server" AutoPostBack="True" Height="16px" Width="72px">
+							<h2>6. Cointreau</h2>
+                            <p>Quantity :&nbsp;
+                                <asp:DropDownList ID="DropDownList6" runat="server" Height="16px" Width="52px">
                                     <asp:ListItem>1</asp:ListItem>
                                     <asp:ListItem>2</asp:ListItem>
                                     <asp:ListItem>3</asp:ListItem>
                                     <asp:ListItem>4</asp:ListItem>
                                     <asp:ListItem>5</asp:ListItem>
-                                    <asp:ListItem></asp:ListItem>
-                                </asp:DropDownList>
-                                </p>
-                            <p>&nbsp;&nbsp;&nbsp;
-                            Price : 20</p>
-                           <br />
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:Button ID="Button6" runat="server" Text="Add to cart" />
-                                &nbsp;</p>
+                                </asp:DropDownList>  </p>
+                          Price: 55
+							<p>
+                                <asp:Button ID="Button6" runat="server" Text="Add to cart" /></p>
 						</div>
 						&nbsp;</div>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img src="images/gingerbreadcookie.jpg" alt="Image" class="auto-style5" /> </li>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<a href="cart.aspx"><img src="images/Cointreau.jpg" alt="Image" class="auto-style5" /></a> 
+                    </li>
 			</ul>
 		</div>
 	</div>
@@ -888,7 +707,7 @@
 					<div class="auto-style17">
 						<div>
 							<b>Too <span>BUSY</span> to shop?</b>
-							<a href="signin.aspx">Sign up for free</a>
+							<a href="register.aspx">Sign up for free</a>
 							<p>and we&#39;ll deliver it on your doorstep</p>
 						</div>
 					</div>
@@ -908,19 +727,18 @@
 		<div id="navigation">
 			<div>
 				<ul>
-					<li class="first"><a href="index.aspx">help</a></li>
-					<li><a href="index.aspx">about cake delight</a></li>
-					<li><a href="index.aspx">cake delight talk</a></li>
-					<li><a href="index.aspx">developers</a></li>
-					<li><a href="index.aspx">privacy policy</a></li>
-					<li><a href="index.aspx">terms of use(updated 10/15/08)</a></li>
+					<li class="first">help</li>
+					<li>about cake delight</li>
+					<li>cake delight talk</li>
+					<li>developers</li>
+					<li>privacy policy</li>
+					<li>terms of use(updated 10/15/08)</li>
 				</ul>
 				<p>Copyright &copy; 2006-2008 cake delight  All rights reserved</p>
 			</div>
 		</div>
 	</div>
-   
-    </form>
-   
-</body>
+        </form>
+
+   </body>
 </html-->
