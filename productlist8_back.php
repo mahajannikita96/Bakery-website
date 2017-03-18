@@ -3,21 +3,6 @@
     if(!($_COOKIE["logged_in"])){
         header('Location: signin1.php');
     }
-    else{
-        $sum_quant_sql = "SELECT SUM(quantity) as itemcount FROM product WHERE username = '".$_COOKIE["username_bake"]."' GROUP BY username";
-        $result = $conn->query($sum_quant_sql);
-        $items_cart = 0;
-        while($row = $result->fetch_assoc()) {
-            $items_cart = $row["itemcount"];
-        }
-
-        $sum_price_sql = "SELECT SUM(productprice) as itemprice FROM product WHERE username = '".$_COOKIE["username_bake"]."' GROUP BY username";
-        $result = $conn->query($sum_price_sql);
-        $items_price = 0;
-        while($row = $result->fetch_assoc()) {
-            $items_price = $row["itemprice"];
-        }
-    }
 ?>
 
 <!DOCTYPE html>
@@ -135,12 +120,12 @@
 					</div>
 			</div>
 			<ul>
-				<li class="current"><a href="index.php">Home</a></li>
-				<li ><a href="product.php">The Bakery shop</a></li>
-				<li><a href="about.php">About us</a></li>
-				<li><a href="services.php">Services</a></li>
-				<li><a href="blog.php">Blog</a></li>
-				<li><a href="contact.php">Contact Us</a></li>
+				<li class="current"><a href="index.aspx">Home</a></li>
+				<li ><a href="product.aspx">The Bakery shop</a></li>
+				<li><a href="about.aspx">About us</a></li>
+				<li><a href="services.aspx">Services</a></li>
+				<li><a href="blog.aspx">Blog</a></li>
+				<li><a href="contact.aspx">Contact Us</a></li>
 			</ul>
 			<div class="section">
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/bakeryback.gif" alt="Image" class="auto-style1"/>&nbsp;
@@ -150,21 +135,21 @@
 	<div class="container">
 		
         <div class="row">
-			<div class="col-md-8">
+			<div class="col-md-11">
                 <h1>The Bakery shop</h1>
                 <br/>
                 <h3>Mousse &amp; Ganache </h3>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-1">
                 <br/>    
-			     <p> <a href="#"><img src="images/images.gif" class="auto-style27" /></a> <?php echo $items_cart; ?> items(s) in the cart. Total Price: <?php echo $items_price; ?> Rs.</p>
+			     <p> <a href="#"><img src="images/images.gif" class="auto-style27" /></a> </p>
             </div>
 		</div>
 					
 		<div class="row">
             <div class="col-md-4">
 				<img src="images/wcake.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="1">
+                <form method = "POST" action="#" id="1">
                         <input type="hidden" name="cakename" value="blueberry_vanilla"><h2>Blueberry Vannila</h2><br />
 				    <div class="row">
                         <div class="col-md-3">
@@ -197,7 +182,7 @@
 
             <div class="col-md-4">
                 <img src="images/sacramento-wedding-cakes.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="2">
+                <form method = "POST" action="#" id="2">
                         <input type="hidden" name="cakename" value="vanilla_orange_rose"><h2>Vanilla Orange Rose</h2><br />
                     <div class="row">
                         <div class="col-md-3">
@@ -213,7 +198,7 @@
                              </select>
                         </div>
                     </div>
-                    <input type="hidden" name="cakeprice" value="145"><b>Price</b> : 145
+                    <input type="hidden" name="cakeprice" value="125"><b>Price</b> : 145
                     <div class="row">
                         <div class="col-md-12">
                             <p></p>
@@ -230,7 +215,7 @@
 
             <div class="col-md-4">
                 <img src="images/exotic-flower-cake.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="3">
+                <form method = "POST" action="#" id="3">
                         <input type="hidden" name="cakename" value="exotic_flower_cake"><h2>Exotic Flower Cake</h2><br />
                     <div class="row">
                         <div class="col-md-3">
@@ -276,7 +261,7 @@
         <div class="row">
             <div class="col-md-4">
                 <img src="images/stunning-pink-wedding-cake.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="4">
+                <form method = "POST" action="#" id="4">
                         <input type="hidden" name="cakename" value="stunning_pink_wedding_cake"><h3>Stunning Pink wedding cake</h3><br />
                     <div class="row">
                         <div class="col-md-3">
@@ -309,7 +294,7 @@
 
             <div class="col-md-4">
                 <img src="images/wedding-celebrations-cascade-cake.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="5">
+                <form method = "POST" action="#" id="5">
                         <input type="hidden" name="cakename" value="triple_choco_box"><h2>Triple Chocolate Box</h2><br />
                     <div class="row">
                         <div class="col-md-3">
@@ -342,7 +327,7 @@
 
             <div class="col-md-4">
                 <img src="images/chocowc.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="6">
+                <form method = "POST" action="#" id="6">
                         <input type="hidden" name="cakename" value="white_choco_cake"><h2>White Chocolate Cake</h2><br />
                     <div class="row">
                         <div class="col-md-3">
@@ -393,7 +378,7 @@
 
             <div class="col-md-4">
                 <img src="images/whit0chocoe.jpg" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="7">
+                <form method = "POST" action="#" id="7">
                         <input type="hidden" name="cakename" value="strawberry_flowers_cake"><h3>Strawberry Flowers Cake</h3><br />
                     <div class="row">
                         <div class="col-md-3">
@@ -430,7 +415,7 @@
 
             <div class="col-md-4">
                 <img src="images/weddingcake31.gif" alt="Image" class="auto-style2" />
-                <form method = "POST" action="add_to_cart8.php" id="8">
+                <form method = "POST" action="#" id="8">
                         <input type="hidden" name="cakename" value="dark_choco_box"><h2>Dark Chocolate Cake</h2><br />
                     <div class="row">
                         <div class="col-md-3">
@@ -474,14 +459,14 @@
 				
         </div>
 	</div>
-	<div id="footer">
+				<div id="footer">
 		<div class="section">
 			<div>
 				<div class="aside">
 					<div class="auto-style17">
 						<div>
 							<b>Too <span>BUSY</span> to shop?</b>
-							<a href="signin.php">Sign up for free</a>
+							<a href="signin.aspx">Sign up for free</a>
 							<p>and we&#39;ll deliver it on your doorstep</p>
 						</div>
 					</div>
@@ -501,12 +486,12 @@
 		<div id="navigation">
 			<div>
 				<ul>
-					<li class="first"><a href="index.php">help</a></li>
-					<li><a href="index.php">about cake delight</a></li>
-					<li><a href="index.php">cake delight talk</a></li>
-					<li><a href="index.php">developers</a></li>
-					<li><a href="index.php">privacy policy</a></li>
-					<li><a href="index.php">terms of use(updated 10/15/08)</a></li>
+					<li class="first"><a href="index.aspx">help</a></li>
+					<li><a href="index.aspx">about cake delight</a></li>
+					<li><a href="index.aspx">cake delight talk</a></li>
+					<li><a href="index.aspx">developers</a></li>
+					<li><a href="index.aspx">privacy policy</a></li>
+					<li><a href="index.aspx">terms of use(updated 10/15/08)</a></li>
 				</ul>
 				<p>Copyright &copy; 2006-2008 cake delight  All rights reserved</p>
 			</div>
